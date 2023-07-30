@@ -5,6 +5,7 @@
         <featurein/>
         <showCase/>
         <ourApproach/>
+        <contact/>
     </div>
 </template>
 <script>
@@ -12,6 +13,7 @@
     import featurein from "../components/featurein.vue";
     import showCase from "../components/showCase.vue";
     import ourApproach from "../components/ourApproach.vue";
+    import contact from "../components/contact.vue";
     export default{
         name:"home",
         components:{
@@ -19,6 +21,7 @@
             featurein,
             showCase,
             ourApproach,
+            contact,
         }
     }
 </script>
