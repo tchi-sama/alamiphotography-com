@@ -1,22 +1,15 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div class="bg-red-500 text-4xl">hello world</div>
+  <div id="app">
+    <Home/>
+  </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<script>
+import Home from "./views/Home.vue"
+export default {
+  name: "App",
+  components:{
+    Home
+  }
+};
+</script>
