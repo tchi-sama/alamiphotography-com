@@ -1,7 +1,7 @@
 <template>
     <div class="h-screen bg-red-200 bg-cover bg-[url('./assets/wedding1.jpg')]" >
         <div class="container p-8 mx-auto flex flex-col h-full text-[#fffb] pt-16">
-            <nav class="flex items-end rounded-xl  uppercase  text-lg gap-16 justify-center ">
+            <nav class="flex items-end rounded-xl  uppercase  gap-16 justify-center ">
                 <div class="flex-1 flex justify-between">
                     <div class="flex gap-4">
                         <a href="#">
